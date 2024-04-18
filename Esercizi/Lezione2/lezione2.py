@@ -36,3 +36,14 @@ name_famous: str = "Albert Einstein"
 
 phrase: str = f"{name_famous} once said, \"A Person who never made a mistake never tried anything new\""
 
+#Exercise 2.8
+
+filename: str = "python_notes.txt"
+
+filename: str = filename.removesuffix(".txt")
+
+print(filename)
+
+
+
+
