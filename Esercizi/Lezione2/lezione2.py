@@ -25,3 +25,14 @@ name_lower: str = name.lower()
 name_upper: str = name.upper()
 
 print(f"{name}, {name_upper}, {name_lower},")
+
+#Exercise 2.5
+
+print("Albert Einstein once said, \"A Person who never made a mistake never tried anything new\"")
+
+#Exercise 2.6
+
+name_famous: str = "Albert Einstein"
+
+phrase: str = f"{name_famous} once said, \"A Person who never made a mistake never tried anything new\""
+
