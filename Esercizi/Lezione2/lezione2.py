@@ -40,9 +40,15 @@ phrase: str = f"{name_famous} once said, \"A Person who never made a mistake nev
 
 filename: str = "python_notes.txt"
 
-filename: str = filename.removesuffix(".txt")
+print(filename.removesuffix(".txt"))
 
-print(filename)
+#Exercise 3.1
+names: list =["Gino", "Mimmo", "Luigi", "Alberto", "Laura", "Erica"]
+
+for word in names:
+    print(f'{word}')
+
+
 
 
 
