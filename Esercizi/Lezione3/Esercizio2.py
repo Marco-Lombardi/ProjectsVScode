@@ -21,5 +21,11 @@ def median(l: list[float]) -> float:
 
  return mediana
 
+list = [1, -4, 45, 23]
+
+list2 = [-3, 80, 2, 43, 9]
+
+print(median(list))
+print(median(list2))
 
 
