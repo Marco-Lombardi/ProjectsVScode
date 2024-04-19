@@ -28,4 +28,15 @@ list2 = [-3, 80, 2, 43, 9]
 print(median(list))
 print(median(list2))
 
+#third exercise
+
+def diff_cum(l: list[float]) -> float:
+ diff: float = l[0]
+ for elem in l[1:]:
+  diff -= elem
+  return diff
+
+ 
+
+ 
 
