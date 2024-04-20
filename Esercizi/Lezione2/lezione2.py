@@ -131,7 +131,10 @@ print(city)
 print(sorted(city))
 print(len(city))
 
+#Exercise 6.1
 
+Person: dict = {"Nome": "Marco", "Cognome": "Lombardi", "Età": 23, "Città": "Zagarolo"}
+print(Person)
 
 
 
