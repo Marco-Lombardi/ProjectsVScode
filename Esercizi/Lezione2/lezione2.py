@@ -64,10 +64,13 @@ for vehicle in car:
 
 #Exercise 3.4    
 
-name: list = ["Gino", "Mimmo", "Luigi", "Alberto", "Laura", "Erica",]    
+guest: list = ["Gino", "Mimmo", "Luigi", "Alberto", "Laura", "Erica",]    
 
-for word in name:
+for word in guest:
     print(f'Ciao {word} ti va di venire a mangiare una pizza a casa mia')
+
+#Exercise 3.5
+
 
 
 
