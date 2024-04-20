@@ -57,6 +57,12 @@ for word in names:
 
 #Exercise 3.3
 
+car: list = ["Maserati", "Lamborghini", "Ferrari", "Rolls Royce"]
+
+for vehicle in car:
+    print(f'I would like to own a {vehicle} car.')
+    
+
 
 
 
