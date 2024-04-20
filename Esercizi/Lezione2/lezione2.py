@@ -124,6 +124,12 @@ print(World)
 names: list =["Gino", "Mimmo", "Luigi", "Alberto", "Laura", "Erica"]
 print(len(name))
 
+#Exercise 3.10
+
+city: list = ["Roma", "Milano", "Napoli", "Torino", "Palermo", "Genova"]
+print(city)
+print(sorted(city))
+print(len(city))
 
 
 
