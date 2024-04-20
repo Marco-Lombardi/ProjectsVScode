@@ -103,6 +103,29 @@ print(f'ciao {guest.pop(0)} sei ancora invitato')
 print(f'ciao {guest.pop(0)} sei ancora invitato')
 print(guest)
 
+# Exercise 3.8
+
+World: list = ["Germiana", "Francia", "Norvegia", "Finlandia", "Svezia"]
+print(sorted(World))
+print(World)
+print(sorted(World))
+print(World)
+World.reverse()
+print(World)
+World.reverse()
+print(World)
+World.sort()
+print(World)
+World.sort()
+print(World)
+
+
+
+
+
+
+
+
 
 
 
