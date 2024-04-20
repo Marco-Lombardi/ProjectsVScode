@@ -87,8 +87,26 @@ guest.append("Giulia")
 for word in guest:
  print(f'Ciao {word} ho trovato un tavolo piu grande')
 
+# Exercise 3.7
 
- 
+print("Posso invitare solo 2 persone")
+
+
+print(f'ciao {guest.pop(0)} mi dispiace non posso invitarti')
+print(f'ciao {guest.pop(1)} mi dispiace non posso invitarti')
+print(f'ciao {guest.pop(2)} mi dispiace non posso invitarti')
+print(f'ciao {guest.pop(3)} mi dispiace non posso invitarti')
+print(f'ciao {guest.pop(4)} mi dispiace non posso invitarti')
+print(f'ciao {guest.pop(0)} mi dispiace non posso invitarti')
+print(f'ciao {guest.pop(1)} mi dispiace non posso invitarti')
+print(f'ciao {guest.pop(0)} sei ancora invitato')
+print(f'ciao {guest.pop(0)} sei ancora invitato')
+print(guest)
+
+
+
+
+
 
 
 
