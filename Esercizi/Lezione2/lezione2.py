@@ -77,7 +77,18 @@ guest.append("Maria")
 for word in guest:
     print(f'Ciao {word} ti va di venire a mangiare una pizza a casa mia')
     
+#Exercise 3.6
 
+for word in guest:
+    print(f'Ciao {word} ho trovato un tavolo piu grande')
+guest.insert(0,"Tiziana")
+guest.insert(4, "Carlo")
+guest.append("Giulia")
+for word in guest:
+ print(f'Ciao {word} ho trovato un tavolo piu grande')
+
+
+ 
 
 
 
