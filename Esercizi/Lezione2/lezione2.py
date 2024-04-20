@@ -71,6 +71,12 @@ for word in guest:
 
 #Exercise 3.5
 
+guest.copy
+guest.remove("Luigi")
+guest.append("Maria")
+for word in guest:
+    print(f'Ciao {word} ti va di venire a mangiare una pizza a casa mia')
+    
 
 
 
