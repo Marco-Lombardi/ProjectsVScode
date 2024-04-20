@@ -119,6 +119,10 @@ print(World)
 World.sort()
 print(World)
 
+#Exercise 3.9
+
+names: list =["Gino", "Mimmo", "Luigi", "Alberto", "Laura", "Erica"]
+print(len(name))
 
 
 
