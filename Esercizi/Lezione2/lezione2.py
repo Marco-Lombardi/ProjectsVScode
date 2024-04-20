@@ -48,6 +48,15 @@ names: list =["Gino", "Mimmo", "Luigi", "Alberto", "Laura", "Erica"]
 for word in names:
     print(f'{word}')
 
+#Exercise 3.2
+
+names: list =["Gino", "Mimmo", "Luigi", "Alberto", "Laura", "Erica"]
+
+for word in names:
+    print(f'Ciao {word} ti va di andare a mangiare una pizza insieme')
+
+
+
 
 
 
