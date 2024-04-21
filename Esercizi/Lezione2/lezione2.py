@@ -193,6 +193,29 @@ for persona in persone:
     print(f"Età: {persona['età']}")
     print(f"Città: {persona['città']}\n")
 
+#Exercise 6.8
+
+animale1 = {
+    'specie': 'Cane',
+    'proprietario': 'Marco'
+}
+
+animale2 = {
+    'specie': 'Gatto',
+    'proprietario': 'Anna'
+}
+
+animale3 = {
+    'specie': 'Pappagallo',
+    'proprietario': 'Luca'
+}
+
+animali_domestici = [animale1, animale2, animale3]
+
+for animale in animali_domestici:
+    print(f"Specie: {animale['specie']}")
+    print(f"Proprietario: {animale['proprietario']}\n")
+
 
 
 
