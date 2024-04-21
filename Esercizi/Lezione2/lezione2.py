@@ -216,6 +216,19 @@ for animale in animali_domestici:
     print(f"Specie: {animale['specie']}")
     print(f"Proprietario: {animale['proprietario']}\n")
 
+# Exercise 6.9
+
+favorite_places = {
+    'Marco': ['Roma', 'Firenze'],
+    'Anna': ['Milano'],
+    'Luca': ['Napoli', 'Venezia']
+}
+
+for persona, luoghi in favorite_places.items():
+    print(f"{persona} ama visitare:")
+    for luogo in luoghi:
+        print(f"- {luogo}")
+    print()
 
 
 
