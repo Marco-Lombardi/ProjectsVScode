@@ -243,7 +243,32 @@ preferiti = {
 for persona, numeri in preferiti.items():
     print(f"{persona} ha i numeri preferiti: {numeri}.")
 
-    
+#Exercise 6.11
+
+città = {
+    'Roma': {
+        'paese': 'Italia',
+        'popolazione': '2.8 milioni',
+        'fatto': 'È la capitale dell\'Italia.'
+    },
+    'Parigi': {
+        'paese': 'Francia',
+        'popolazione': '2.1 milioni',
+        'fatto': 'È conosciuta come la città della luce.'
+    },
+    'New York': {
+        'paese': 'Stati Uniti',
+        'popolazione': '8.4 milioni',
+        'fatto': 'È chiamata anche la Grande Mela.'
+    }
+}
+
+for nome, info in città.items():
+    print(f"{nome}:")
+    print(f"Paese: {info['paese']}")
+    print(f"Popolazione: {info['popolazione']}")
+    print(f"Fatto: {info['fatto']}\n")
+
 
 
 
