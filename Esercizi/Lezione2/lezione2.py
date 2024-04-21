@@ -136,6 +136,21 @@ print(len(city))
 Person: dict = {"Nome": "Marco", "Cognome": "Lombardi", "Età": 23, "Città": "Zagarolo"}
 print(Person)
 
+#Exercise 6.2
+
+favourite: dict = {
+    'Marco': 7,
+    'Anna': 15,
+    'Luca': 3,
+    'Sara': 22,
+    'Giovanni': 10
+}
+
+for persona, numero in favourite.items():
+    print(f"{persona} ha il numero preferito {numero}.")
+    
+
+
 
 
 
