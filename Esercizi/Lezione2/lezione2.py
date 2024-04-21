@@ -269,6 +269,41 @@ for nome, info in città.items():
     print(f"Popolazione: {info['popolazione']}")
     print(f"Fatto: {info['fatto']}\n")
 
+#Exercise 6.12 (Exention Exercise 6.8)
+
+animale1 = {
+    'specie': 'Cane',
+    'nome': 'Rex',
+    'proprietario': 'Marco',
+    'età': 5,
+    'cibo_preferito': 'Croccantini'
+}
+
+animale2 = {
+    'specie': 'Gatto',
+    'nome': 'Luna',
+    'proprietario': 'Anna',
+    'età': 3,
+    'cibo_preferito': 'Pesce'
+}
+
+animale3 = {
+    'specie': 'Pappagallo',
+    'nome': 'Charlie',
+    'proprietario': 'Luca',
+    'età': 2,
+    'cibo_preferito': 'Semi e frutta'
+}
+
+animali_domestici = [animale1, animale2, animale3]
+
+for animale in animali_domestici:
+    print(f"Nome: {animale['nome']}")
+    print(f"Specie: {animale['specie']}")
+    print(f"Proprietario: {animale['proprietario']}")
+    print(f"Età: {animale['età']} anni")
+    print(f"Cibo preferito: {animale['cibo_preferito']}\n")
+
 
 
 
