@@ -230,6 +230,21 @@ for persona, luoghi in favorite_places.items():
         print(f"- {luogo}")
     print()
 
+#Exercise 6.10
+
+preferiti = {
+    'Marco': [7, 14],
+    'Anna': [15, 34],
+    'Luca': [3, 6],
+    'Sara': [22, 44],
+    'Giovanni': [10, 20]
+}
+
+for persona, numeri in preferiti.items():
+    print(f"{persona} ha i numeri preferiti: {numeri}.")
+
+    
+
 
 
 
