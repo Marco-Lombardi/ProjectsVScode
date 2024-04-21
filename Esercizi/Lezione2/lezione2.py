@@ -162,6 +162,37 @@ glossario = {
 for parola, significato in glossario.items():
     print(f"{parola}: {significato}\n")
 
+#Exercise 6.7
+
+persona1 = {
+    'nome': 'Marco',
+    'cognome': 'Rossi',
+    'età': 30,
+    'città': 'Roma'
+}
+
+persona2 = {
+    'nome': 'Anna',
+    'cognome': 'Bianchi',
+    'età': 25,
+    'città': 'Milano'
+}
+
+persona3 = {
+    'nome': 'Luca',
+    'cognome': 'Verdi',
+    'età': 35,
+    'città': 'Napoli'
+}
+
+persone = [persona1, persona2, persona3]
+
+for persona in persone:
+    print(f"Nome: {persona['nome']}")
+    print(f"Cognome: {persona['cognome']}")
+    print(f"Età: {persona['età']}")
+    print(f"Città: {persona['città']}\n")
+
 
 
 
