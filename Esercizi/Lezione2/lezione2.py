@@ -149,6 +149,18 @@ favourite: dict = {
 for persona, numero in favourite.items():
     print(f"{persona} ha il numero preferito {numero}.")
     
+#Exercise 6.3
+
+glossario = {
+    'variabile': 'Un nome che fa riferimento a un valore.',
+    'funzione': 'Un blocco di codice riutilizzabile.',
+    'lista': 'Una collezione di elementi ordinati.',
+    'dizionario': 'Una collezione di coppie chiave-valore.',
+    'loop': 'Un modo per eseguire lo stesso blocco di codice più volte.'
+}
+
+for parola, significato in glossario.items():
+    print(f"{parola}: {significato}\n")
 
 
 
