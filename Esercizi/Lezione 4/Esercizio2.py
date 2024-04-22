@@ -56,6 +56,33 @@ s = "La meccanica quantistica è la teoria fisica che descrive il comportamento 
 result = word_count(s)
 print(result)
 
+#Third Exercise
+
+def is_palindrome(s: str) -> bool:
+    s = s.lower().replace(' ', '')
+    
+    # Inizializza una stringa vuota per la versione rovesciata
+    reversed_s = ""
+    
+    # Costruisce la versione rovesciata della stringa
+    for char in s:
+        reversed_s = char + reversed_s
+    
+    # Confronta la stringa con la sua versione rovesciata
+    return s == reversed_s
+
+# Test della funzione
+word = "anna"
+phrase = "ciao come stai?"
+
+print(is_palindrome(word))    
+print(is_palindrome(phrase))  
+
+
+
+
+
+
         
 
 
