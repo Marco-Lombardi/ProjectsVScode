@@ -51,6 +51,12 @@ for number in range(0, 10):
    cubelist.append(cubenumber)
 print(cubelist)   
 
+#Exercise 4.9: Cube Comprehension
+cubecomprehension: list = [number**2 for number in range(0, 10)]
+print(cubecomprehension)
+
+
+
 
    
     
