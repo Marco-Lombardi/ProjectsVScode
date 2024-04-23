@@ -39,8 +39,12 @@ print(sum(numberlist))
 
 for odd in range(1, 21, 2):
     print(odd)
-    
 
+#Exercise 4.7: Threes
+for three in range(3, 31, 3):
+ print(three)
+
+ 
 
 
 
