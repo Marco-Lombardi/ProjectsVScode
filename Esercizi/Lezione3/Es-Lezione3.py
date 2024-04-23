@@ -55,6 +55,20 @@ print(cubelist)
 cubecomprehension: list = [number**2 for number in range(0, 10)]
 print(cubecomprehension)
 
+#Exercise 4.10: Slices
+
+es10list: list = ("Gatto", "Cane", "Gallina", "Margherita", "Boscaiola", "Uno", "Due", "Tre", "Quattro")
+
+x = slice(0, 3)
+y = slice(3, 6)
+z = slice(6, 9)
+print(es10list[x], es10list[y], es10list[z])
+
+
+
+
+
+
 
 
 
