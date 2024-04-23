@@ -27,6 +27,13 @@ for number in range(1, 100000):
    numberlist.append(number)
 print(numberlist)
 
+#Exercise 4.5: Summing a Milion
+numberlist: list = []
+for number in range(1, 100000):
+   numberlist.append(number)
+print(min(numberlist))
+print(max(numberlist))
+print(sum(numberlist))
 
 
 
