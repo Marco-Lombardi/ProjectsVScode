@@ -21,5 +21,20 @@ for felino in Animals:
 for number in range(1, 21):
     print(number)
 
+# Exercise 4.4: One Milion
+numberlist: list = []
+for number in range(1, 100000):
+   numberlist.append(number)
+print(numberlist)
+
+
+
+
+
+
+   
+    
+    
+
     
 
