@@ -16,7 +16,10 @@ for felino in Animals:
     print(f'Il {felino} è un felino')
 #Exercise uncomplete
 
-        
+# Exercise 4.3: Counting to Twenty
+
+for number in range(1, 21):
+    print(number)
 
     
 
