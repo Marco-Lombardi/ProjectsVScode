@@ -44,6 +44,17 @@ for odd in range(1, 21, 2):
 for three in range(0, 31, 3):
  print(three)
 
+#Exercise 4.8: Cubes
+cubelist: list = []
+for number in range(0, 10):
+   cubenumber: int = number**2
+   cubelist.append(cubenumber)
+print(cubelist)   
+
+
+   
+    
+
 
 
 
