@@ -10,11 +10,11 @@ for pizza in Pizza:
 Animals: list = ["Gatto", "Leone", "Ghepardo"]
 for felino in Animals:
     print(felino)
-    
-
+#Exercise Uncomplete    
+#Exercise uncomplete
 for felino in Animals:
     print(f'Il {felino} è un felino')
-#Exercise uncomplete
+
 
 # Exercise 4.3: Counting to Twenty
 
@@ -63,6 +63,17 @@ x = slice(0, 3)
 y = slice(3, 6)
 z = slice(6, 9)
 print(es10list[x], es10list[y], es10list[z])
+
+# Exercise 4.11: My Pizzas, Your Pizzas
+
+pizzacopia: list = Pizza[:]
+
+Pizza.append("Napoli")
+pizzacopia.append("Bianca")
+print(Pizza, pizzacopia)
+#Uncomplete exercise
+
+
 
 
 
