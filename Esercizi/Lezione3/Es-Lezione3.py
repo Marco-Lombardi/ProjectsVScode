@@ -35,6 +35,13 @@ print(min(numberlist))
 print(max(numberlist))
 print(sum(numberlist))
 
+#Exercise 4.6: Odd Numbers
+
+for odd in range(1, 21, 2):
+    print(odd)
+    
+
+
 
 
 
