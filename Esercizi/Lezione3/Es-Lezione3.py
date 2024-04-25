@@ -82,6 +82,44 @@ for pizze in Pizza:
 for pizze in pizzacopia:
     print(f"le pizze preferite del mio amico sono {pizze}")  
 
+#Exercise 4.12: More Loops
+#I understand this exercise
+
+#Exercise 4.15: Code Review
+#Rewrite Exercise: 4.10
+es10list: list = ("Gatto", "Cane", "Gallina", 
+                  "Margherita", "Boscaiola", "Uno", 
+                  "Due", "Tre", "Quattro")
+
+x = slice(0, 3)
+y = slice(3, 6)
+z = slice(6, 9)
+print(es10list[x], es10list[y], es10list[z])
+
+#Rewrite Exercise 4.2:
+
+Animals: list = ["Gatto", "Leone", "Ghepardo"]
+for felino in Animals:
+    print(felino)
+for felino in Animals:
+    if felino == "Gatto":
+        print(f'Il {felino} è un felino e sarebbe un ottimo 
+              animale domestico per le famiglie.')
+    elif felino == "Leone":
+        print(f'Il {felino} è un felino e sarebbe un maestoso
+               animale domestico per chi ha spazio aperto.')
+    elif felino == "Ghepardo":
+        print(f'Il {felino} è un felino e sarebbe un elegante 
+              animale domestico per chi ama la velocità.')
+for felino in Animals:
+    print(f'Il {felino} è un felino')
+
+# Uncomplete Exercise
+
+     
+
+
+
 
 
 
