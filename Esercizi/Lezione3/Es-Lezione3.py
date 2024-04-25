@@ -10,8 +10,13 @@ for pizza in Pizza:
 Animals: list = ["Gatto", "Leone", "Ghepardo"]
 for felino in Animals:
     print(felino)
-#Exercise Uncomplete    
-#Exercise uncomplete
+for felino in Animals:
+    if felino == "Gatto":
+        print(f'Il {felino} è un felino e sarebbe un ottimo animale domestico per le famiglie.')
+    elif felino == "Leone":
+        print(f'Il {felino} è un felino e sarebbe un maestoso animale domestico per chi ha spazio aperto.')
+    elif felino == "Ghepardo":
+        print(f'Il {felino} è un felino e sarebbe un elegante animale domestico per chi ama la velocità.')
 for felino in Animals:
     print(f'Il {felino} è un felino')
 
