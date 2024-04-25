@@ -76,7 +76,12 @@ pizzacopia: list = Pizza[:]
 Pizza.append("Napoli")
 pizzacopia.append("Bianca")
 print(Pizza, pizzacopia)
-#Uncomplete exercise
+
+for pizze in Pizza:
+    print(f"Le mie pizze preferite sono {pizze}")
+for pizze in pizzacopia:
+    print(f"le pizze preferite del mio amico sono {pizze}")  
+
 
 
 
