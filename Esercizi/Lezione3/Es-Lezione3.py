@@ -296,6 +296,32 @@ elif age < 65:
 else:
     print("The person is an elder.")
 
+#Exercise: 5.7 Favorite Fruits
+
+# Define the list of favorite fruits
+favorite_fruits = ['apple', 'banana', 'strawberry']
+
+# Check if 'apple' is in the list of favorite fruits
+if 'apple' in favorite_fruits:
+    print("You really like Apples!")
+
+# Check if 'banana' is in the list of favorite fruits
+if 'banana' in favorite_fruits:
+    print("You really like Bananas!")
+
+# Check if 'orange' is in the list of favorite fruits
+if 'orange' in favorite_fruits:
+    print("You really like Oranges!")
+
+# Check if 'strawberry' is in the list of favorite fruits
+if 'strawberry' in favorite_fruits:
+    print("You really like Strawberries!")
+
+# Check if 'kiwi' is in the list of favorite fruits
+if 'kiwi' in favorite_fruits:
+    print("You really like Kiwis!")
+
+
 
 
 
