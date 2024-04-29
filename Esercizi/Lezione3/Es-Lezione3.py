@@ -247,6 +247,38 @@ if alien_color == 'green':
 else:
     print("Congratulations! You just earned 10 points.")
 
+# Exercise 5.5 Alien Colors #3
+
+# Version for a green alien
+alien_color = 'green'
+
+if alien_color == 'green':
+    print("Congratulations! You just earned 5 points.")
+elif alien_color == 'yellow':
+    print("Congratulations! You just earned 10 points.")
+else:
+    print("Congratulations! You just earned 15 points.")
+
+# Version for a yellow alien
+alien_color = 'yellow'
+
+if alien_color == 'green':
+    print("Congratulations! You just earned 5 points.")
+elif alien_color == 'yellow':
+    print("Congratulations! You just earned 10 points.")
+else:
+    print("Congratulations! You just earned 15 points.")
+
+# Version for a red alien
+alien_color = 'red'
+
+if alien_color == 'green':
+    print("Congratulations! You just earned 5 points.")
+elif alien_color == 'yellow':
+    print("Congratulations! You just earned 10 points.")
+else:
+    print("Congratulations! You just earned 15 points.")
+
 
 
 
