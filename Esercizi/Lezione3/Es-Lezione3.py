@@ -321,7 +321,16 @@ if 'strawberry' in favorite_fruits:
 if 'kiwi' in favorite_fruits:
     print("You really like Kiwis!")
 
+#Exercise 5.8: Hello Admin
 
+usernames = ['admin', 'jaden', 'emma', 'michael', 'olivia']
+
+# Loop through the list of usernames and print greetings
+for username in usernames:
+    if username == 'admin':
+        print("Hello admin, would you like to see a status report?")
+    else:
+        print(f"Hello {username}, thank you for logging in again.")
 
 
 
