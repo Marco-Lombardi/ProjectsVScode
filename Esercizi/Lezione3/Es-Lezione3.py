@@ -112,9 +112,57 @@ for felino in Animals:
         print(f'Il {felino} è un felino e sarebbe un elegante 
               animale domestico per chi ama la velocità.')
 for felino in Animals:
-    print(f'Il {felino} è un felino')
+    print(f'Il {felino} è un felino') 
 
 # Uncomplete Exercise
+
+#Exercise 5.1: Test Conditional
+
+# Define the car variable
+car = 'subaru'
+
+# Test 1: Is car == 'subaru'? I predict True.
+print("Is car == 'subaru'? I predict True.")
+print(car == 'subaru')
+
+# Test 2: Is car == 'audi'? I predict False.
+print("\nIs car == 'audi'? I predict False.")
+print(car == 'audi')
+
+# Test 3: Is car != 'toyota'? I predict True.
+print("\nIs car != 'toyota'? I predict True.")
+print(car != 'toyota')
+
+# Test 4: Is car.lower() == 'Subaru'? I predict True.
+print("\nIs car.lower() == 'subaru'? I predict True.")
+print(car.lower() == 'subaru')
+
+# Test 5: Is car.upper() == 'SUBARU'? I predict True.
+print("\nIs car.upper() == 'SUBARU'? I predict True.")
+print(car.upper() == 'SUBARU')
+
+# Test 6: Is len(car) == 6? I predict True.
+print("\nIs len(car) == 6? I predict True.")
+print(len(car) == 6)
+
+# Test 7: Is car.startswith('su')? I predict True.
+print("\nIs car.startswith('su')? I predict True.")
+print(car.startswith('su'))
+
+# Test 8: Is car.endswith('ru')? I predict True.
+print("\nIs car.endswith('ru')? I predict True.")
+print(car.endswith('ru'))
+
+# Test 9: Is 'b' in car? I predict True.
+print("\nIs 'b' in car? I predict True.")
+print('b' in car)
+
+# Test 10: Is 'x' in car? I predict False.
+print("\nIs 'x' in car? I predict False.")
+print('x' in car)
+
+
+
 
      
 
