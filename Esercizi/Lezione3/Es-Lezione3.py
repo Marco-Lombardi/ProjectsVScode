@@ -161,6 +161,61 @@ print('b' in car)
 print("\nIs 'x' in car? I predict False.")
 print('x' in car)
 
+#Exercise 5.2: More Conditional Test
+
+# Define variables for testing
+string1 = "hello"
+string2 = "HELLO"
+number1 = 10
+number2 = 20
+list1 = [1, 2, 3, 4, 5]
+
+# Tests for equality and inequality with strings
+print("Tests for equality and inequality with strings:")
+print("Is string1 == 'hello'? I predict True.")
+print(string1 == 'hello')
+
+print("\nIs string1 != string2? I predict True.")
+print(string1 != string2)
+
+# Tests using the lower() method
+print("\nTests using the lower() method:")
+print("Is string1.lower() == 'hello'? I predict True.")
+print(string1.lower() == 'hello')
+
+# Numerical tests
+print("\nNumerical tests:")
+print("Is number1 == 10? I predict True.")
+print(number1 == 10)
+
+print("Is number1 > number2? I predict False.")
+print(number1 > number2)
+
+print("Is number2 >= 20? I predict True.")
+print(number2 >= 20)
+
+print("Is number2 < 15? I predict False.")
+print(number2 < 15)
+
+# Tests using the 'and' keyword and the 'or' keyword
+print("\nTests using the 'and' keyword and the 'or' keyword:")
+print("Is number1 == 10 and number2 == 20? I predict True.")
+print(number1 == 10 and number2 == 20)
+
+print("Is number1 == 5 or number2 == 15? I predict False.")
+print(number1 == 5 or number2 == 15)
+
+# Test whether an item is in a list
+print("\nTest whether an item is in a list:")
+print("Is 3 in list1? I predict True.")
+print(3 in list1)
+
+# Test whether an item is not in a list
+print("\nTest whether an item is not in a list:")
+print("Is 6 not in list1? I predict True.")
+print(6 not in list1)
+
+
 
 
 
