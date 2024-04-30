@@ -108,3 +108,22 @@ while True:
     album_info = make_album(artist, title)
     print(album_info)
 
+#Exercise 8-9: Messages
+def show_messages(messages):
+    # Prints each text message from a list.
+    for message in messages:
+        print(message)
+
+# List containing a series of short text messages
+text_messages = [
+    "Hello!",
+    "How are you?",
+    "Just checking in.",
+    "Have a great day!"
+]
+
+# Calling the show_messages() function
+show_messages(text_messages)
+
+
+
