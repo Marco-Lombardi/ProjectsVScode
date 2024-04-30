@@ -43,3 +43,14 @@ make_shirt(size="medium")
 
 # Making a shirt of any size with a different message
 make_shirt(size="small", message="Keep Calm and Code On!")
+
+#Exercise 8.5: Cities
+
+def describe_city(city, country="Iceland"):
+    """Prints a simple sentence describing the city and its country."""
+    print(f"{city} is in {country}.")
+
+# Calling the function for three different cities
+describe_city("Reykjavik")
+describe_city("Tokyo", "Japan")
+describe_city("Paris", "France")
