@@ -65,3 +65,26 @@ def city_country(city, country):
 print(city_country("Santiago", "Chile"))
 print(city_country("Tokyo", "Japan"))
 print(city_country("Paris", "France"))
+
+#Exercise 8.7: Album
+
+def make_album(artist_name, album_title, num_songs=None):
+    #Builds a dictionary describing a music album.
+    album = {
+        'artist': artist_name,
+        'title': album_title
+    }
+    if num_songs:
+        album['songs'] = num_songs
+    return album
+
+# Making three dictionaries representing different albums
+album1 = make_album("Artist1", "Album1")
+album2 = make_album("Artist2", "Album2", 12)
+album3 = make_album("Artist3", "Album3", 8)
+
+# Printing each return value to show that the dictionaries are storing the album information correctly
+print(album1)
+print(album2)
+print(album3)
+
