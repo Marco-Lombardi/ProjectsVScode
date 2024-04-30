@@ -54,3 +54,14 @@ def describe_city(city, country="Iceland"):
 describe_city("Reykjavik")
 describe_city("Tokyo", "Japan")
 describe_city("Paris", "France")
+
+#Exercise 8.6 City Names
+
+def city_country(city, country):
+    #Returns a string formatted as 'city, country'.
+    return f"{city}, {country}"
+
+# Calling the function with three city-country pairs and printing the returned values
+print(city_country("Santiago", "Chile"))
+print(city_country("Tokyo", "Japan"))
+print(city_country("Paris", "France"))
