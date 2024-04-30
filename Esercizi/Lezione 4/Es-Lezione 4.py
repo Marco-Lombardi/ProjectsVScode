@@ -88,3 +88,23 @@ print(album1)
 print(album2)
 print(album3)
 
+#Exercise 8.8: User Album
+
+def make_album(artist_name, album_title):
+    #Builds a dictionary describing a music album.
+    album = {
+        'artist': artist_name,
+        'title': album_title
+    }
+    return album
+
+# While loop to allow users to enter album information
+while True:
+    artist = input("Enter the artist's name: ")
+
+    title = input("Enter the album title: ")
+    
+    # Call make_album() with user's input and print the created dictionary
+    album_info = make_album(artist, title)
+    print(album_info)
+
