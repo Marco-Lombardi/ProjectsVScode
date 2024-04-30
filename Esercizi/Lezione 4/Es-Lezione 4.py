@@ -7,3 +7,12 @@ def display_message():
 
 # Calling the function
 display_message()
+
+#Exercise 8.2: Favourite Books
+
+def favorite_book(title):
+    #Prints a message about a favorite book
+    print(f"One of my favorite books is {title}.")
+
+# Calling the function with a book title
+favorite_book("Alice in Wonderland")
