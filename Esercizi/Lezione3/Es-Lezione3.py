@@ -356,6 +356,25 @@ for new_user in new_users:
     else:
         print(f"The username '{new_user}' is available.")
 
+# Exercise 5.11: Ordinal Numbers
+# Store the numbers 1 through 9 in a list
+numbers = list(range(1, 10))
+
+# Loop through the list
+for number in numbers:
+    # Check the last digit of the number to determine the ordinal ending
+    if number % 10 == 1:
+        ordinal = "st"
+    elif number % 10 == 2:
+        ordinal = "nd"
+    elif number % 10 == 3:
+        ordinal = "rd"
+    else:
+        ordinal = "th"
+    
+    # Print the number with its proper ordinal ending
+    print(f"{number}{ordinal}")        
+
 
 
 
