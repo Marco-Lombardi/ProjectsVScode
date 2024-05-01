@@ -177,3 +177,16 @@ make_sandwich("Ham", "Cheese", "Lettuce")
 make_sandwich("Turkey", "Swiss cheese", "Tomato", "Mayonnaise")
 make_sandwich("Peanut butter", "Jelly")
 
+# Exercise 8.13: User Profile
+
+def build_profile(first_name, last_name, **kwargs):
+    profile = f"{first_name} {last_name},"
+    for key, value in kwargs.items():
+        profile += f" {key} {value},"
+    return profile[:-1]  # Remove the trailing comma
+
+# Call build_profile with my information
+my_profile = build_profile("John", "Doe", age=30, hair="black", weight=75)
+print(my_profile)
+
+
