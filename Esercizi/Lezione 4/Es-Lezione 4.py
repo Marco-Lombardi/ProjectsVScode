@@ -162,5 +162,39 @@ show_messages(text_messages)
 print("\nSent Messages:")
 show_messages(sent_messages)
 
+# Exercise 8.11: Archived Messages
+def show_messages(messages):
+    # Prints each text message from a list.
+    for message in messages:
+        print(message)
 
+def send_messages(messages, sent_messages):
+    
+    # Prints each text message from a list,
+    # and moves each message to a new list called sent_messages.
+    
+    for message in messages:
+        print(message)
+        sent_messages.append(message)
+
+# List containing a series of short text messages
+text_messages = [
+    "Hello!",
+    "How are you?",
+    "Just checking in.",
+    "Have a great day!"
+]
+
+# List to store sent messages
+sent_messages = []
+
+# Calling the send_messages() function
+send_messages(text_messages, sent_messages)
+
+# Printing both lists to make sure the messages were moved correctly
+print("\nOriginal Messages:")
+show_messages(text_messages)
+
+print("\nSent Messages:")
+show_messages(sent_messages)
 
