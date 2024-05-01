@@ -165,3 +165,15 @@ show_messages(text_messages)
 print("\nSent Messages:")
 show_messages(sent_messages)
 
+# Exercise 8.12: Sandwich
+
+def make_sandwich(*items):
+    print("Making a sandwich with the following items:")
+    for item in items:
+        print("- " + item)
+
+# Call the function with different number of arguments
+make_sandwich("Ham", "Cheese", "Lettuce")
+make_sandwich("Turkey", "Swiss cheese", "Tomato", "Mayonnaise")
+make_sandwich("Peanut butter", "Jelly")
+
