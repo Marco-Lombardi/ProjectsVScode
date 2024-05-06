@@ -146,6 +146,28 @@ def remove_elements(original_set: set[int], elements_to_remove: list[int]) -> se
 
 print(remove_elements({5, 6, 7}, [7, 8, 9]))
 
+# Exercise 10
+# Scrivi una funzione che unisce due dizionari. Se una chiave è presente in entrambi, somma i loro valori.
+
+def merge_dictionaries(dict1: dict, dict2: dict) -> dict:
+    merged_dict = {}
+    
+    
+    for key in dict1.keys():
+        if key in dict2:
+            
+            merged_dict[key] = dict1[key] + dict2[key]
+        else:
+            merged_dict[key] = dict1[key]
+    
+    for key in dict2.keys():
+        if key not in dict1:
+            merged_dict[key] = dict2[key]
+    
+    return merged_dict
+
+print(merge_dictionaries({'x': 5}, {'x': -5}))
+
 
 
 
