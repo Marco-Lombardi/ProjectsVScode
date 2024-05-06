@@ -47,6 +47,15 @@ def remove_duplicates(list: list) -> list:
 
 print(remove_duplicates([1, 2, 3, 1, 2, 4]))
 
+# Exercise 4 
+
+# Il codice dovrebbe stampare i numeri all'interno di una lista.
+# TROVA L'ERRORE E CORREGGI IL CODICE
+
+numbers: list[int] = [1, 2, 3, 4, 5]
+
+for i in range(len(numbers)):
+    print('Number:', numbers[i])
 
 
 
