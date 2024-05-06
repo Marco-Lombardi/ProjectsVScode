@@ -33,9 +33,19 @@ def rotate_left(elements: list, k: int) -> list:
 
 print(rotate_left([1, 2, 3, 4, 5], 2))
 
+# Exercise 3
 
+# Scrivi una funzione che rimuove tutti i duplicati da una lista, contenente sia numeri che lettere, 
+# mantenendo l'ordine originale degli elementi.
 	
+def remove_duplicates(list: list) -> list:
+    unique_elements = []
+    for element in list:
+        if element not in unique_elements:
+            unique_elements.append(element)
+    return unique_elements
 
+print(remove_duplicates([1, 2, 3, 1, 2, 4]))
 
 
 
