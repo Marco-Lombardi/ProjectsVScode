@@ -132,6 +132,21 @@ print(count_isolated([1, 2, 2, 3, 3, 3, 4]))
 
 print(count_isolated([1, 2, 3, 4, 5]))
 
+# Exercise 9
+
+def remove_elements(original_set: set[int], elements_to_remove: list[int]) -> set[int]:
+    
+    result_set = original_set.copy()
+    
+    
+    for element in elements_to_remove:
+        result_set.discard(element)
+    
+    return result_set
+
+print(remove_elements({5, 6, 7}, [7, 8, 9]))
+
+
 
 
 
