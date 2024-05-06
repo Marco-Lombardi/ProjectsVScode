@@ -88,6 +88,28 @@ def is_magic_number(num: int) -> bool:
 print(is_magic_number(70))
 
 print(is_magic_number(123))
+
+# Exercise 7
+# Scrivi una funzione che verifica se in una stringa le parentesi '(' e ')' sono bilanciate, 
+# cioè per ogni parentesi che apre c'è la corrispondente parentesi che chiude.
+
+
+def check_parentheses(s):
+    stack = []
+    for char in s:
+        if char == '(':
+            stack.append(char)
+        elif char == ')':
+            if len(stack) == 0:
+                return False
+            else:
+                stack.pop()
+    return len(stack) == 0
+
+print(check_parentheses("()()"))
+print(check_parentheses("(()))("))
+
+
     
     
 
