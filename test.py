@@ -18,12 +18,19 @@ class TestCalc(unittest.TestCase):
         
         self.assertEqual(result, 5, msg=f"Error Test Failde the goal was 5, the function returned {result}")    
     
-    def test_div(self):
+    def test_prod(self):
         
         calc_1 = Calculations(a=2, b=3)
         result = calc_1.get_product()
         
-        self.assertEqual(result, 5, msg=f"Error Test Failde the goal was 5, the function returned {result}")    
+        self.assertEqual(result, 5, msg=f"Error Test Failde the goal was 5, the function returned {result}")  
+        
+    def test_div(self):
+        
+        calc_1 = Calculations(a=2, b=3)
+        result = calc_1.get_quotient()
+        
+        self.assertEqual(result, 5, msg=f"Error Test Failde the goal was 5, the function returned {result}")       
     
 if __name__ == "__main__":
     
