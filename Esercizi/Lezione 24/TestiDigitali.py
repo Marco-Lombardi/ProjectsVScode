@@ -109,6 +109,12 @@ class File(Documento):
     print("\n Testo del file:")
     print(file_documento.getText())
     
+    
+    
+    
+    
+    
+    
         
     
     
